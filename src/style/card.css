@@ -1,0 +1,96 @@
+.card {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	width: 350px;
+	height: 407px;
+	margin-bottom: 30px;
+}
+
+.card__imeg {
+	height: 75%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.card__imeg img {}
+
+.card__name-price {
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 310px;
+}
+
+.product-name {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #1C1C27;
+}
+
+.product-price {
+	position: relative;
+}
+
+.product-price__new {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #FFA542;
+}
+
+.product-price__old {
+	position: absolute;
+	left: 10%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+	text-decoration-line: line-through;
+	color: #FFCE7F;
+}
+
+.card__douw {
+	margin: 25px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 310px;
+}
+
+.product-star {
+	width: 75px;
+	display: flex;
+	align-items: center;
+}
+
+.product-star span {
+	margin-left: 10px;
+	text-align: right;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #838383;
+}
+
+.buy {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
